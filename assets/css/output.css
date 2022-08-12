@@ -396,7 +396,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  align-items: middle;
   /* 2 */
 }
 
