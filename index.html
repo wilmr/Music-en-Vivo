@@ -7,7 +7,15 @@
     <title>MUSIC en VIVO</title>
     <link href="./assets/css/output.css" rel="stylesheet"/>
 </head>
-<body class="h-screen bg-no-repeat bg-cover bg-[url('/assets/images/bgimg.jpg')]">
+<body class="h-screen">
+    <style>
+        body {
+          background-image: url('./assets/images/bgimg.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
   <!--Nav-->  
     <nav class="relative container mx-auto p-6">
         <!--flex container-->
@@ -53,4 +61,15 @@
     </section>
 
 </body>
+<footer class="flex flex-col items-center justify-around h-50 ">
+    <div class="flex justify-around space-x-6 m-1 p-1">
+        <a href="#" class="text-white font-bold hover:text-sky-700">About Us</a>
+        <a href="#" class="text-white font-bold hover:text-sky-700">Saved Events</a>
+    </div>
+    <div class="">
+        <p class="text-white text-xs">
+            Made with 🎧 by Wilmer Martinez, Graciela Mejia, & Renee Hamlin
+        </p>
+    </div>
+</footer>
 </html>
