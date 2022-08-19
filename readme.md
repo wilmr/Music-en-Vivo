@@ -3,6 +3,16 @@
 ## Purpose
 A simple, exciting website that serves as a hub for music lovers to find concerts from the artists they love. Enter a muscician's name to find events for that musician.
 
+## Contributors
+Wilmer Martinez
+https://github.com/wilmr
+
+Graciela Mejia
+https://github.com/gmejia87
+
+Renee Hamlin
+https://github.com/rnhamlin
+
 ## Built With...
 * HTML
 * CSS
