@@ -16,7 +16,8 @@ https://github.com/rnhamlin
 ## Built With...
 * HTML
 * CSS
-* Javascript
+* JavaScript
+* Tailwind CSS
 * Ticketmaster API
 * Spotify API
 
