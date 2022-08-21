@@ -15,3 +15,6 @@ https://wilmr.github.io/Music-en-Vivo/index.html
 
 ## Preview
 ![musicenvivo](https://user-images.githubusercontent.com/50350162/185529696-a0fdb43a-8626-4adc-bde8-f2b5599f63a7.gif)
+
+## Contribution
+Made with 🎧 by Wilmer Martinez, Graciela Mejia, and Renee Hamlin
