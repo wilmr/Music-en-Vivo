@@ -1,7 +1,7 @@
 # Music en Vivo
 
 ## Purpose
-A simple, exciting website that serves as a hub for music lovers to find concerts from the artists they love. Enter a muscician's name to find events for that musician.
+A simple, exciting website that serves as a hub for music lovers to find concerts from the artists they love. Enter a muscician's name to find events for that musician or click the 'Random Top 10 Artist' to find events for a Top 10 Billboard artist!
 
 ## Contributors
 Wilmer Martinez
@@ -19,7 +19,7 @@ https://github.com/rnhamlin
 * JavaScript
 * Tailwind CSS
 * Ticketmaster API
-* Spotify API
+* Billboard API
 
 ## Website Link
 https://wilmr.github.io/Music-en-Vivo/index.html
