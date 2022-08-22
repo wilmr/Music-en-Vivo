@@ -31,6 +31,7 @@
             </div>
         </div>
     </nav>
+    <!-- end nav -->
 
     <!--hero section-->
     <section>
@@ -56,12 +57,17 @@
                 </svg>
                 <input type="text" id="name-input" placeholder="Search.." class="ml-6 bg-transparent outline-none w-full"/>
             </div>
+            <!-- top100 random button -->
+            <div id="billboard-container">
+                <button class="button">Random Top 10 Artist!</button>
+            </div>
         </div>
     </section>
+    <!-- end hero section -->
+
     <!--events section-->
-    
     <section class="md:h-full flex-wrap flex-row items-center text-white md:columns-2 sm:columns-1 lg:columns-3 mx-9 px-25"
-        data-event-card-container>
+    data-event-card-container>
         <template event-card-template>
             <div class="p-4 sm:w-full lg:w-full md:w-full">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -79,10 +85,12 @@
                     </div>
                 </div>
             </div>
-        </template>
-    </section>
+            </template>
+        </section>
+    <!--end events sections -->
 
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/music.js"></script>
 </body>
+
 </html>
