@@ -7,7 +7,7 @@
     <title>Saved Events</title>
     <link href="./assets/css/output.css" rel="stylesheet"/>
 </head>
-<body>
+<body class="min-h-screen m-0 pb-40">
     <style>
         body {
             background-image: url('./assets/images/bgimg.jpg');
@@ -51,26 +51,37 @@
         
     </section>
     <!--events section-->
+    <section class="md:h-full flex-wrap flex-row items-center text-white md:columns-2 sm:columns-1 lg:columns-3 mx-9 px-25"
+        data-event-card-container>
+        <template event-card-template>
+            <div class="p-4 sm:w-full lg:w-full md:w-full">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img src="" alt="image" class="lg:h-72 md:h-72 w-full object-cover object-center" event-img>
+                    <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
+                        <h1 class="text-2xl font-medium text-white mb-1 flex-1" event-name></h1>
+                        <h2 class="text-base font-semibold mb-3" event-date></h2>
+                        <p class="leading-relaxed mb-3" event-venue-name></p>
+                        <div class="flex items-center flex-wrap" event-bookmark>
     
-    <section class="md:h-full flex-wrap flex-row items-center text-white md:columns-2 sm:columns-1 lg:columns-3 mx-9 px-25" data-event-card-container>
-                    <template event-card-template>
-                        <div class="p-4 sm:w-full lg:w-full md:w-full">
-                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img src="" alt="image" class="lg:h-72 md:h-72 w-full object-cover object-center" event-img>
-                                <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
-                                    <h1 class="text-2xl font-medium text-white mb-1 flex-1" event-name></h1>
-                                    <h2 class="text-base font-semibold mb-3" event-date></h2>
-                                    <p class="leading-relaxed mb-3" event-venue-name></p>
-                                    <div class="flex items-center flex-wrap" event-bookmark>
-
-                                    </div>
-                                </div>                
-                            </div>
                         </div>
-                    </template>
-                
+                    </div>
+                </div>
+            </div>
+        </template>
     </section>
-
+    <footer class="bg-gradient-to-r from-transparent via-pink-600 to-transparent fixed bottom-0 flex flex-col h-35 w-3/4 left-1/2 ml-[-37.5%] py-4">
+        <div class="mx-auto">
+            <div class="flex justify-around space-x-6 m-1 p-1">
+                <a href="./about.html" class="text-white font-bold hover:text-sky-700">About Us</a>
+                <a href="./index.html" class="text-white font-bold hover:text-sky-700">Home</a>
+            </div>
+            <div>
+                <p class="text-white text-xs">
+                    Made with 🎧 by Wilmer Martinez, Graciela Mejia, & Renee Hamlin
+                </p>
+            </div>
+        </div>
+    </footer>
     <script src="./assets/js/savedEvents.js"></script>
 </body>
 </html>
